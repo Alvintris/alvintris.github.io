@@ -82,8 +82,31 @@ body {
     border: 1px solid #4f6f52;
     border-radius: 20px;
     width: 250px;
-    max-height: 300px;
+    max-height: 400px;
     padding: 15px;
     margin: 25px 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-content .box img {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #739072;
+    height: 20vh;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+
+.contact-links img {
+    width: 120%;
 }
