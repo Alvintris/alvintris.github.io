@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -25,8 +29,14 @@ body {
 }
 
 .navbar a {
+    border-radius: 20px;
+    padding: 10px;
     text-decoration: none;
     color: black;
+}
+
+.navbar a:hover {
+    background-color: #4f6f52;
 }
 
 .home {
@@ -97,6 +107,10 @@ body {
 
 .box .linksPage a {
     color: #f9b572;
+}
+
+.box .linksPage a:hover {
+    color: blue;
 }
 
 .portfolio-content .box img {
