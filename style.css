@@ -5,6 +5,7 @@ body {
 }
 
 .navbar {
+    background-color: #ece3ce;
     display: flex;
     justify-content: flex-end;
     width: 100vw;
@@ -47,6 +48,42 @@ body {
     margin: 0;
     color: #3a4d39;
     font-size: 5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     line-height: 6.5rem;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #3a4d39;
+    height: 100vh;
+}
+
+.portfolio .middletitle {
+    margin-top: 20px;
+    color: #ece3ce;
+    font-size: 2rem;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio-content .box {
+    color: #ece3ce;
+    background-color: #4f6f52;
+    border: 1px solid #4f6f52;
+    border-radius: 20px;
+    width: 250px;
+    max-height: 300px;
+    padding: 15px;
+    margin: 25px 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
