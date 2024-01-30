@@ -4,18 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="scrollbarStyle.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet" />
         <title>My Website</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container" id="HomePage">
             <div class="navigation-bar">
                 <ul class="navigation-menu">
-                    <li><a class="active" href="#Home">Home</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a class="active" href="#HomePage">Home</a></li>
+                    <li><a href="#PortfolioPage">Portfolio</a></li>
+                    <li><a href="#ContactPage">Contact</a></li>
                 </ul>
             </div>
             <div class="home-content">
@@ -23,7 +24,7 @@
                 <h2 class="textDefault">I'm Alvin Tristandy. Student at Binus University. Major in Computer Science and this is my portfolio website</h2>
             </div>
         </div>
-        <div class="container backgroundUpDown">
+        <div class="container backgroundUpDown" id="PortfolioPage">
             <div class="title">
                 <h2 class="textDefault">My Portfolio</h2>
             </div>
@@ -48,7 +49,17 @@
                     <p class="textDefault">Space Invader 2D is a game where player will control an alien spaceship to fight aliens. This game is made by one person using Unity Engine for one of four college final assignment.</p>
                     <a href="#"><img class="linkLogo disabled" src="image/Icon/itchio-textless-white.svg" alt="itch.io" /></a>
                 </div>
+                <div class="card">
+                    <img class="imgDefault" src="image/3D-Portfolio/Diorama 3D Portfolio Thumbnail.png" alt="portfolioImg" />
+                    <h3 class="textDefault">3D Low Poly Diorama</h3>
+                    <p class="textDefault">This project is a 3D final project. It contains a 3D model of a cafe and a robot. The project can be seen via the sketchfab link below</p>
+                    <a href="https://skfb.ly/oPIFr" target="_blank"><img class="linkLogo" src="image/Icon/sketchfab-logo-black.svg" alt="sketchfabLogo" /></a>
+                </div>
             </div>
+        </div>
+        <div class="footer" id="ContactPage">
+            <a href="https://github.com/Alvintris" target="_blank"><img class="contactLogo" src="image/Icon/github-mark-white.svg" alt="githubLogo" /></a>
+            <a href="https://www.linkedin.com/in/alvin-tristandy/" target="_blank"><img class="contactLogo" src="image/Icon/LI-In-Bug.png" alt="linkedInLogo" /></a>
         </div>
     </body>
 </html>
